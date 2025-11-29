@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./styles.css";
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom"; // 👈 IMPORTAMOS LINK AQUÍ
 import Header from "./components/Header";
 import Gallery from "./components/Gallery";
 import TextosList from "./components/Textoslist";
@@ -37,9 +37,10 @@ function Home() {
           <p>
             Recital de textos con música en vivo
           </p>
-          <a className="cta" href="/textos">
+          {/* ✅ CAMBIO: Usamos Link en lugar de <a> para navegación interna */}
+          <Link className="cta" to="/textos">
             Textos
-          </a>
+          </Link>
         </div>
       </div>
 
@@ -47,16 +48,18 @@ function Home() {
         <div className="preview-card">
           <h2>Galería</h2>
           <p>Fotos de eventos anteriores.</p>
-          <a className="preview-link" href="/galeria">
+          {/* ✅ CAMBIO: Usamos Link en lugar de <a> */}
+          <Link className="preview-link" to="/galeria">
             Ver galería
-          </a>
+          </Link>
         </div>
         <div className="preview-card">
           <h2>Textos</h2>
           <p>Textos que se leen en nuestros encuentros.</p>
-          <a className="preview-link" href="/textos">
+          {/* ✅ CAMBIO: Usamos Link en lugar de <a> */}
+          <Link className="preview-link" to="/textos">
             Ver textos
-          </a>
+          </Link>
         </div>
       </section>
     </section>
