@@ -5,7 +5,7 @@ import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Gallery from "./components/Gallery";
 import TextosList from "./components/Textoslist";
-import ContactoForm from "./components/Contactoform";
+import ContactoForm from "./components/ContactoForm";
 import Footer from "./components/Footer";
 import heroHome from "./assets/hero-home.jpeg";
 import TextoDetail from "./components/TextoDetail";
