@@ -55,7 +55,7 @@ function Home() {
         </div>
         <div className="preview-card">
           <h2>Textos</h2>
-          <p>Textos que se leen en nuestros encuentros.</p>
+          <p>Textos leidos el sábado 29/11</p>
           {/* ✅ CAMBIO: Usamos Link en lugar de <a> */}
           <Link className="preview-link" to="/textos">
             Ver textos
