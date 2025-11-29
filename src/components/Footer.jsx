@@ -8,7 +8,7 @@ export default function Footer(){
           <a href="/">Inicio</a>
           <a href="/textos">Textos</a>
           <a href="/galeria">Galería</a>
-          <a href="/contacto">Contacto</a>
+          <a href="/textos">Contacto</a>
         </nav>
         <p>© {new Date().getFullYear()} Letra y Música — Todos los derechos reservados</p>
       </div>

@@ -5,7 +5,6 @@ import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Gallery from "./components/Gallery";
 import TextosList from "./components/Textoslist";
-import ContactoForm from "./components/ContactoForm";
 import Footer from "./components/Footer";
 import heroHome from "./assets/hero-home.jpeg";
 import TextoDetail from "./components/TextoDetail";
@@ -20,7 +19,6 @@ export default function App() {
           <Route path="/textos" element={<TextosList />} />
           <Route path="/textos/:id" element={<TextoDetail />} />
           <Route path="/galeria" element={<Gallery />} />
-          <Route path="/contacto" element={<ContactoForm />} />
         </Routes>
       </main>
       <Footer />

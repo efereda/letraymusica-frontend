@@ -41,7 +41,7 @@ export default function Header() {
           <Link to="/galeria" onClick={cerrarMenu}>
             Galería
           </Link>
-          <Link to="/contacto" onClick={cerrarMenu}>
+          <Link to="/textos" onClick={cerrarMenu}>
             Contacto
           </Link>
           {/* <Link to="/admin" className="admin-link" onClick={cerrarMenu}>Admin
